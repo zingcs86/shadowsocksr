@@ -33,8 +33,9 @@ move to "~/shadowsocksr", then run:
 move to "~/shadowsocksr/shadowsocks", then run:
 
     sudo python server.py -p 443 -k password  -m aes-256-cfb -O auth_sha1_v4 -o http_simple -d start
-    
+
 參數選項 (13種加密方式 7種協議（protocol）9種混淆（obfs） ):
+
 | 	-m	 | 	 -O	 | 	-o	 |
 | 	-----	 | 	-------	 | 	-----	 |
 | 	none	 | 	origin	 | 	plain	 |
