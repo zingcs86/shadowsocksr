@@ -7,27 +7,6 @@ A fast tunnel proxy that helps you bypass firewalls.
 
 Server
 ------
-sudo python server.py -p 443 -k password  -m aes-256-cfb -O auth_sha1_v4 -o http_simple -d start    
-
-| 	-m	 | 	 -O	 | 	-o	 |
-| 	-----	 | 	-------	 | 	-----	 |
-| 	none	 | 	origin	 | 	plain	 |
-| 	aes-256-cfb	 | 	verify_deflate	 | 	http_simple	 |
-| 	aes-192-cfb	 | 	auth_sha1_v4	 | 	http_simple_compatible	 |
-| 	aes-128-cfb	 | 	auth_sha1_v4_compatible	 | 	http_post	 |
-| 	aes-256-cfb8	 | 	auth_aes128_md5	 | 	http_post_compatible	 |
-| 	aes-192-cfb8	 | 	auth_aes128_sha1	 | 	tls1.2_ticket_auth	 |
-| 	aes-128-cfb8	 | 	auth_chain_a	 | 	tls1.2_ticket_auth_compatible	 |
-| 	aes-256-ctr	 | 	auth_chain_b	 | 	tls1.2_ticket_fastauth	 |
-| 	aes-192-ctr	 | 		 | 	tls1.2_ticket_fastauth_compatible	 |
-| 	aes-128-ctr	 | 		 | 		 |
-| 	chacha20-ietf	 | 		 | 		 |
-| 	chacha20	 | 		 | 		 |
-| 	rc4-md5	 | 		 | 		 |
-| 	rc4-md5-6	 | 		 | 		 |
-
-
-
 ### Install
 
 Debian / Ubuntu:
@@ -54,6 +33,23 @@ move to "~/shadowsocksr", then run:
 move to "~/shadowsocksr/shadowsocks", then run:
 
     python server.py -p 443 -k password -m aes-128-cfb -O auth_aes128_md5 -o tls1.2_ticket_auth_compatible
+
+    | 	-m	 | 	 -O	 | 	-o	 |
+    | 	-----	 | 	-------	 | 	-----	 |
+    | 	none	 | 	origin	 | 	plain	 |
+    | 	aes-256-cfb	 | 	verify_deflate	 | 	http_simple	 |
+    | 	aes-192-cfb	 | 	auth_sha1_v4	 | 	http_simple_compatible	 |
+    | 	aes-128-cfb	 | 	auth_sha1_v4_compatible	 | 	http_post	 |
+    | 	aes-256-cfb8	 | 	auth_aes128_md5	 | 	http_post_compatible	 |
+    | 	aes-192-cfb8	 | 	auth_aes128_sha1	 | 	tls1.2_ticket_auth	 |
+    | 	aes-128-cfb8	 | 	auth_chain_a	 | 	tls1.2_ticket_auth_compatible	 |
+    | 	aes-256-ctr	 | 	auth_chain_b	 | 	tls1.2_ticket_fastauth	 |
+    | 	aes-192-ctr	 | 		 | 	tls1.2_ticket_fastauth_compatible	 |
+    | 	aes-128-ctr	 | 		 | 		 |
+    | 	chacha20-ietf	 | 		 | 		 |
+    | 	chacha20	 | 		 | 		 |
+    | 	rc4-md5	 | 		 | 		 |
+    | 	rc4-md5-6	 | 		 | 		 |
 
 Check all the options via `-h`.
 
