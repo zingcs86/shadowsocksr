@@ -5,7 +5,7 @@ ShadowsocksR
 
 A fast tunnel proxy that helps you bypass firewalls.
 
-Server / 伺服器
+伺服器 / Server
 ------
 ### 安裝 / Install
 
@@ -14,7 +14,7 @@ Debian / Ubuntu:
     apt-get install git
     git clone https://github.com/pw-chen/shadowsocksr.git
 
-### 啟動
+### 啟動 / Start
 
 move to "~/shadowsocksr/shadowsocks", then run:
 
@@ -59,7 +59,7 @@ To monitor the log / 查看log文件 :
     ./tail.sh
 
 
-Client
+客戶端 / Client (Broken)
 ------
 
 * [Windows] / [macOS]
