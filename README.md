@@ -13,12 +13,12 @@ Server
 Debian / Ubuntu:
 
     apt-get install git
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    git clone https://github.com/pw-chen/shadowsocksr.git
 
 CentOS:
 
     yum install git
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
+    git clone https://github.com/pw-chen/shadowsocksr.git
 
 Windows:
 
