@@ -5,30 +5,16 @@ ShadowsocksR
 
 A fast tunnel proxy that helps you bypass firewalls.
 
-Server
+Server / 伺服器
 ------
-### Install
+### 安裝 / Install
 
 Debian / Ubuntu:
 
     apt-get install git
     git clone https://github.com/pw-chen/shadowsocksr.git
 
-CentOS:
-
-    yum install git
-    git clone https://github.com/pw-chen/shadowsocksr.git
-
-Windows:
-
-    git clone https://github.com/shadowsocksr/shadowsocksr.git
-
 ### Usage for single user on linux platform
-
-If you clone it into "~/shadowsocksr"  
-move to "~/shadowsocksr", then run:
-
-    bash initcfg.sh
 
 move to "~/shadowsocksr/shadowsocks", then run:
 
