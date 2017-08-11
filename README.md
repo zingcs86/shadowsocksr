@@ -14,10 +14,11 @@ Debian / Ubuntu:
     apt-get install git
     git clone https://github.com/pw-chen/shadowsocksr.git
 
-### Usage for single user on linux platform
+### 啟動
 
 move to "~/shadowsocksr/shadowsocks", then run:
 
+    cd ~/shadowsocksr/shadowsocks
     sudo python server.py -p 443 -k password  -m aes-256-cfb -O auth_sha1_v4 -o http_simple -d start
 
 參數選項 (13種加密方式 7種協議（protocol）9種混淆（obfs） ):
@@ -45,15 +46,15 @@ You can also use a configuration file instead (recommend), move to "~/shadowsock
 
     python server.py
 
-To run in the background:
+To run in the background / 背景運行:
 
     ./logrun.sh
 
-To stop:
+To stop / 停止運行:
 
     ./stop.sh
 
-To monitor the log:
+To monitor the log / 查看log文件 :
 
     ./tail.sh
 
