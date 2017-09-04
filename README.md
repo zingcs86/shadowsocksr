@@ -62,9 +62,9 @@ To monitor the log / 查看log文件 :
 客戶端 / Client (Broken)
 ------
 
-* [Windows] / [macOS]
-* [Android] / [iOS]
-* [OpenWRT]
+* [Windows]
+* [Android]
+* [python]
 
 Use GUI clients on your local PC/phones. Check the README of your client
 for more information.
@@ -98,13 +98,6 @@ Bugs and Issues
 
 
 
-[Android]:           https://github.com/shadowsocksr/shadowsocksr-android
-[Build Status]:      https://travis-ci.org/shadowsocksr/shadowsocksr.svg?branch=manyuser
-[Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
-[iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
-[Issue Tracker]:     https://github.com/shadowsocksr/shadowsocksr/issues?state=open
-[OpenWRT]:           https://github.com/shadowsocks/openwrt-shadowsocks
-[macOS]:             https://github.com/shadowsocksr/ShadowsocksX-NG
-[Travis CI]:         https://travis-ci.org/shadowsocksr/shadowsocksr
-[Windows]:           https://github.com/shadowsocksr/shadowsocksr-csharp
-[Wiki]:              https://github.com/breakwa11/shadowsocks-rss/wiki
+[Android]:           https://github.com/shadowsocksrr/shadowsocksr-android/releases
+[Windows]:           https://github.com/shadowsocksrr/shadowsocksr-csharp/releases
+[python]:            https://github.com/shadowsocksrr/shadowsocksr/tree/akkariiin/dev
