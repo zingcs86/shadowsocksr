@@ -20,7 +20,7 @@ move to "~/shadowsocksr/shadowsocks", then run:
     cd ~/shadowsocksr/shadowsocks
     sudo python server.py -p 443 -k password  -m aes-256-cfb -O auth_chain_d -o tls1.2_ticket_fastauth -d start
 
-參數選項 (13種加密方式 7種協議（protocol）9種混淆（obfs） ):
+參數選項 (13種加密方式 9種協議（protocol）9種混淆（obfs） ):
 
 | 	-m	 | 	 -O	 | 	-o	 |
 | 	-----	 | 	-------	 | 	-----	 |
