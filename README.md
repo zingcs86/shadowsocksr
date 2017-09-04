@@ -33,8 +33,8 @@ move to "~/shadowsocksr/shadowsocks", then run:
 | 	aes-192-cfb8	 | 	auth_aes128_sha1	 | 	tls1.2_ticket_auth	 |
 | 	aes-128-cfb8	 | 	auth_chain_a	 | 	tls1.2_ticket_auth_compatible	 |
 | 	aes-256-ctr	 | 	auth_chain_b	 | 	tls1.2_ticket_fastauth	 |
-| 	aes-192-ctr	 | 		 | 	tls1.2_ticket_fastauth_compatible	 |
-| 	aes-128-ctr	 | 		 | 		 |
+| 	aes-192-ctr	 | 	auth_chain_c	 | 	tls1.2_ticket_fastauth_compatible	 |
+| 	aes-128-ctr	 | 	auth_chain_d	 | 		 |
 | 	chacha20-ietf	 | 		 | 		 |
 | 	chacha20	 | 		 | 		 |
 | 	rc4-md5	 | 		 | 		 |
