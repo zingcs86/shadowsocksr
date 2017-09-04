@@ -1,7 +1,6 @@
-ShadowsocksR
+shadowsocksrr
 ===========
 [![owner1](https://img.shields.io/badge/Powered%20by-PW--Chen-blue.svg?style=flat)](https://github.com/PW-Chen)
-[![Build Status]][Travis CI]
 
 A fast tunnel proxy that helps you bypass firewalls.
 
@@ -33,8 +32,8 @@ move to "~/shadowsocksr/shadowsocks", then run:
 | 	aes-192-cfb8	 | 	auth_aes128_sha1	 | 	tls1.2_ticket_auth	 |
 | 	aes-128-cfb8	 | 	auth_chain_a	 | 	tls1.2_ticket_auth_compatible	 |
 | 	aes-256-ctr	 | 	auth_chain_b	 | 	tls1.2_ticket_fastauth	 |
-| 	aes-192-ctr	 | 	auth_chain_c	 | 	tls1.2_ticket_fastauth_compatible	 |
-| 	aes-128-ctr	 | 	auth_chain_d	 | 		 |
+| 	aes-192-ctr	 | 	__auth_chain_c__	 | 	tls1.2_ticket_fastauth_compatible	 |
+| 	aes-128-ctr	 | 	__auth_chain_d__	 | 		 |
 | 	chacha20-ietf	 | 		 | 		 |
 | 	chacha20	 | 		 | 		 |
 | 	rc4-md5	 | 		 | 		 |
