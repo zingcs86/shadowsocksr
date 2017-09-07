@@ -9,7 +9,7 @@ A fast tunnel proxy that helps you bypass firewalls.
 
 Debian / Ubuntu:
 
-    apt-get install git
+    apt-get install git python python3
     git clone https://github.com/pw-chen/shadowsocksr.git
 
 ### 啟動 / Start
@@ -64,14 +64,10 @@ To monitor the log / 查看log文件 :
 * [Android]
 * [python]
 
-
 License
 -------
 
 Copyright 2015 clowwindy
-
-
-
 
 [Android]:           https://github.com/shadowsocksrr/shadowsocksr-android/releases
 [Windows]:           https://github.com/shadowsocksrr/shadowsocksr-csharp/releases
