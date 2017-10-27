@@ -2,6 +2,8 @@ shadowsocksrr
 ===========
 
 A fast tunnel proxy that helps you bypass firewalls.
+* [akkariiin/master]
+* [akkariiin/dev]
 
 伺服器 / Server
 ------
@@ -72,3 +74,5 @@ Copyright 2015 clowwindy
 [Android]:           https://github.com/shadowsocksrr/shadowsocksr-android/releases
 [Windows]:           https://github.com/shadowsocksrr/shadowsocksr-csharp/releases
 [python]:            https://github.com/shadowsocksrr/shadowsocksr/tree/akkariiin/dev
+[python/akkariiin/master]:  https://github.com/shadowsocksrr/shadowsocksr/tree/akkariiin/master
+[python/akkariiin/dev]:     https://github.com/shadowsocksrr/shadowsocksr/tree/akkariiin/dev
