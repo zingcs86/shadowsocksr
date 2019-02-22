@@ -7,6 +7,20 @@ A fast tunnel proxy that helps you bypass firewalls.
 
 伺服器 / Server
 ------
+### Start BBR
+
+> Linux Kernel should be greater than 4.9
+
+```sh
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
+
+# Check it's working if it displays 'bbr'
+sysctl net.ipv4.tcp_available_congestion_control
+sysctl net.ipv4.tcp_congestion_control
+```
+
 ### 安裝 / Install
 
 Debian / Ubuntu:
